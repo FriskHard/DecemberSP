@@ -14,7 +14,12 @@ public class App {
         student.setGroup(Group.FIRST);
         student.setSecondName("Иванов");
 
+        Student student2 = new Student("Анастасия", "Александровна");
+        student2.setGroup(Group.FIRST);
+        student2.setSecondName("Кострова");
+
         students.add(student);
+        students.add(student2);
         students.forEach(System.out::println);
     }
 }
